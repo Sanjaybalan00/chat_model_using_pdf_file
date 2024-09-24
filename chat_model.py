@@ -10,7 +10,7 @@ from langchain_chroma import Chroma
 import os
 
 
-Google_API_Key = 'AIzaSyDFvEzEBCcN8x56hfl5tB8mVK-Wvuij9qk'
+Google_API_Key = 'your_key'
 
 current_dir=os.path.dirname(os.path.abspath(__file__))
 persistent_directory=os.path.join(current_dir,'db',"chroma_db")
